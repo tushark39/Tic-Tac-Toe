@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Tic",
-    "slug": "Tic",
+    "name": "Tik-Tac-Toe",
+    "slug": "TiK-Tac-Toe",
     "platforms": [
       "ios",
       "android",
@@ -22,7 +22,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.theeguardians.tictactoe",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.theeguardians.tictactoe",
+      "versionCode": 1.0
     }
   }
 }
